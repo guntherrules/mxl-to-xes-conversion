@@ -4,7 +4,7 @@ This repository contains a script to convert sheet music in MusicXML format to e
 Before running the script make sure you have pandas, music21 and pm4py installed. The standard configuration 
 parses the MusicXML files note by note and each note is turned into an event.
 
-The script has the following input arguments:\\
+The script has the following input arguments:
 ```--input_dir```: path to a folder containing MusicXML files
 ```--output_dir```: path to folder for storing output XES files
 ```--lifecycles```: the lifecycles you want to include in the XES files (either start, complete or both)
